@@ -274,6 +274,25 @@ a:hover {
     margin-top: 80px;
 }
 
+.aside-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.quote {
+    width: 60%;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.author-quote {
+    font-size: 1.4rem;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
