@@ -830,6 +830,11 @@ h4 {
     color: #F3976C;
 }
 
+.col-sm-12 img {
+    border-radius: 50%;
+    border: 2px #FFDB55 solid;
+}
+
 h1[class="text-center hero-bloc-text tc-white "] {
     color: #FFDB55;
 }
@@ -837,6 +842,7 @@ h1[class="text-center hero-bloc-text tc-white "] {
 .btn-atomic-tangerine {
     background: /*#F3976C*/#353333;
     color: #FFDB55!important;
+    border: 2px #FFDB55 solid;
 }
 
 .btn-atomic-tangerine:hover {
