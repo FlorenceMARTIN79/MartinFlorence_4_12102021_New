@@ -1092,3 +1092,10 @@ h4 {
         text-align: center;
     }
 }
+
+*:focus {
+    font-weight: bold;      
+    border: #FFDB55 3px solid;
+    background-color: #FFDB55;
+    /*ajouter condition couleur de police // contraste + style focus général passe derrière focus spécifique => voir le focus et hover / btns*/
+}
