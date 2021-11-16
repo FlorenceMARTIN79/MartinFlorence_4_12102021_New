@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /*outline: none!important;*/
 }
 
 a:hover {
@@ -511,7 +511,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    /*outline: none!important;*/
 }
 
 .btn-rd {
@@ -1095,7 +1095,8 @@ h4 {
 
 *:focus {
     font-weight: bold;      
-    border: #FFDB55 3px solid;
+    /*border: #FFDB55 3px solid;*/
+    /*outline: solid 1rem #FFDB55;*/
     background-color: #FFDB55;
     /*ajouter condition couleur de police // contraste + style focus général passe derrière focus spécifique => voir le focus et hover / btns*/
 }
