@@ -99,7 +99,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc, .footer-h2 {
+.d-bloc, /*.footer-h2*/ {
     color: rgba(255, 255, 255, .7);
     margin: 0;
     font-size: 14px;
@@ -701,7 +701,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757/*!important-*/;
+    color: #212121/*!important-*/;
 }
 
 .container {
@@ -823,26 +823,26 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFB651;
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #FFB651;
 }
 
 .col-sm-12 img {
     border-radius: 50%;
-    border: 2px #FFDB55 solid;
+    border: 2px #FFB651 solid;
 }
 
 h1[class="text-center hero-bloc-text tc-white "] {
-    color: #FFDB55;
+    color: #FFB651;
 }
 
 .btn-atomic-tangerine {
     background: /*#F3976C*/#353333;
-    color: #FFDB55!important;
-    border: 2px #FFDB55 solid;
+    color: #FFB651!important;
+    border: 2px #FFB651 solid;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1107,7 +1107,7 @@ h1[class="text-center hero-bloc-text tc-white "] {
     font-weight: bold;      
     /*border: #FFDB55 3px solid;*/
     /*outline: solid 1rem #FFDB55;*/
-    background-color: #FFDB55;
+    background-color: #FFB651;
     /*ajouter condition couleur de police // contraste + style focus général passe derrière focus spécifique => voir le focus et hover / btns*/
 }
 
@@ -1152,4 +1152,9 @@ h1[class="text-center hero-bloc-text tc-white "] {
 
 .contact p {
     font-size: 1.5rem;
+}
+
+footer p {
+    background-color: #353333;
+    color: #FFB651;
 }
