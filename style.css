@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /*outline: none!important;*/
 }
 
 a:hover {
@@ -511,7 +511,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    /*outline: none!important;*/
 }
 
 .btn-rd {
@@ -1101,4 +1101,55 @@ h1[class="text-center hero-bloc-text tc-white "] {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+*:focus {
+    font-weight: bold;      
+    /*border: #FFDB55 3px solid;*/
+    /*outline: solid 1rem #FFDB55;*/
+    background-color: #FFDB55;
+    /*ajouter condition couleur de police // contraste + style focus général passe derrière focus spécifique => voir le focus et hover / btns*/
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group label {
+    word-wrap: nowrap;
+    align-self: center;
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+
+.form-group input {
+    width: auto;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message label {
+    align-self: flex-start;
+}
+
+.btn-envoyer {
+    padding: 0;
+}
+
+.btn-envoyer .cta-hero {
+    padding: 12px;
+    border-radius: 0;
+    border: black solid 1px;
+}
+
+.contact {
+    margin-top: 2rem;
+}
+
+.contact p {
+    font-size: 1.5rem;
 }
