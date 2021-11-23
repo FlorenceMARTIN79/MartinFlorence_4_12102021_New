@@ -99,8 +99,8 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc, /*.footer-h2*/ {
-    color: rgba(255, 255, 255, .7);
+.d-bloc/*, .footer-h2*/ {
+    /*color: rgba(255, 255, 255, .7);*/
     margin: 0;
     font-size: 14px;
 }
@@ -124,10 +124,10 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
+.d-bloc a .icon-sm/*,
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
+.d-bloc a .icon-xl,*/
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -840,14 +840,17 @@ h1[class="text-center hero-bloc-text tc-white "] {
 }
 
 .btn-atomic-tangerine {
-    background: /*#F3976C*/#353333;
-    color: #FFB651!important;
+    /*background: /*#F3976C*//*#353333;
+    color: #FFB651!important;*/
+    background: #FFB651;
+    color: #353333!important;
     border: 2px #FFB651 solid;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    /*background: #c27956!important;
+    color: #FFFFFF!important;*/
+    background:#fcbf6a;
 }
 
 .ltc-white {
@@ -1155,6 +1158,16 @@ h1[class="text-center hero-bloc-text tc-white "] {
 }
 
 footer p {
-    background-color: #353333;
-    color: #FFB651;
+    /*background-color: #353333;
+    color: #FFB651;*/
+    background-color: #FFB651;
+    color: #353333;
+}
+
+.footer-h2 {
+    font-size: 14px;
+}
+
+.social .fa {
+    color: #353333;
 }
