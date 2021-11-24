@@ -510,9 +510,9 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
+/*button {
     /*outline: none!important;*/
-}
+/*}*/
 
 .btn-rd {
     border-radius: 40px;
@@ -818,9 +818,9 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/*.bgc-dark-slate-blue {
     background-color: #364577;
-}
+}*/
 
 .bgc-atomic-tangerine {
     background-color: #FFB651;
