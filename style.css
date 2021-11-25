@@ -1193,6 +1193,6 @@ footer p {
 
 .darker-bg {
     background-color: #4F4126;
-    width: 60%;
-    padding-top: 10%;
+    min-height: 15rem;
 }
+
