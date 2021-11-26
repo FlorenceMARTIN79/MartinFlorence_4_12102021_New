@@ -1196,5 +1196,10 @@ footer p {
     min-height: 15rem;
 }
 
+address  {
+    color: black;
+    font-size: 1.5rem;
+}
+
 
 
