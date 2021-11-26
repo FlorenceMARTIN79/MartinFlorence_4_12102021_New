@@ -1165,10 +1165,14 @@ h1[class="text-center hero-bloc-text tc-white "] {
 
 .contact {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
-.contact p {
+.contact p, .contact address {
     font-size: 1.5rem;
+    color: black;
+    max-width: 49%;
 }
 
 footer p {
@@ -1196,10 +1200,6 @@ footer p {
     min-height: 15rem;
 }
 
-address  {
-    color: black;
-    font-size: 1.5rem;
-}
 
 
 
