@@ -1200,6 +1200,16 @@ footer p {
     min-height: 15rem;
 }
 
+.form-group_origine {
+    border: red solid 2px;
+}
+
+.origine {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 

@@ -94,15 +94,30 @@
 						</label>
 						<input id="email" name="email" class="form-control" type="email" required />
 					</div>
-					<div class="form-group">
-						<label for="input_504">
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="text" maxlength="50" required id="input_504" name="input_504" />
+					<div class="form-group form-group_origine">
+						<p class="origine">
+							Comment nous avez-vous connu ?<br />
+							<input class="form-control" type="radio" required id="radio_origine1" name="radio_origine" value="boucheaoreille"/>
+							<label for="radio_origine1">
+								Quelqu'un m'a parlé de vous
+							</label><br />
+							<input class="form-control" type="radio" required id="radio_origine2" name="radio_origine" value="web"/>
+							<label for="radio_origine2">
+								En recherchant sur internet
+							</label><br />
+							<input class="form-control" type="radio" required id="radio_origine3" name="radio_origine" value="pagesjaunes"/>
+							<label for="radio_origine3">
+								Dans les pages jaunes
+							</label><br />
+							<input class="form-control" type="radio" required id="radio_origine4" name="radio_origine" value="autre"/>
+							<label for="radio_origine4">
+								Autre : précisez
+							</label>
+						</p>
 					</div>
 					<div class="form-group message">
 						<label for="message">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+							Présentez-nous votre projet en quelques mots (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<div class="btn-envoyer col-sm-3">
