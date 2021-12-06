@@ -2488,7 +2488,7 @@ textarea.input-lg {
 .help-block {
     display: block;
     margin-top: 5px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     color: #737373
 }
 
@@ -4997,8 +4997,9 @@ a.thumbnail:hover {
 }
 
 .alert {
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: 0 1rem 0 1rem;
+    /*margin-bottom: 20px;*/
+    margin-left: 1rem;
     border: 1px solid transparent;
     border-radius: 4px
 }
@@ -5063,9 +5064,10 @@ a.thumbnail:hover {
 }
 
 .alert-warning {
-    color: #8a6d3b;
+    color: red;
+    font-weight: bold;
     background-color: #fcf8e3;
-    border-color: #faebcc
+    border-color: red;
 }
 
 .alert-warning hr {
