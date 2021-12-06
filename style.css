@@ -1201,12 +1201,27 @@ footer p {
 }
 
 .form-group_origine {
-    border: red solid 2px;
     flex-direction: column;
 }
 .form-group_origine p {
     padding-left: 0;
 }
+
+.origin-proposition, .origin-proposition4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+}
+
+.origin-proposition {
+    margin-left: 3rem;
+}
+
+.form-group_origine input {
+    margin: 1rem;
+}
+
 
 
 
