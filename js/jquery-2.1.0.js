@@ -2658,7 +2658,7 @@
             global: !0,
             processData: !0,
             async: !0,
-            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            contentType: "application/x--form-urlencoded; charset=UTF-8",
             accepts: {
                 "*": pc,
                 text: "text/plain",
