@@ -350,12 +350,15 @@ h2[class="col-sm-12 text-center"] {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    max-width: 100%;
 }
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .navbar-brand img[src$=svg] {
@@ -496,9 +499,9 @@ nav .caret {
     margin-bottom: 40px;
 }
 
-.btn {
+/*.btn {
     margin: 0 5px 5px 0;
-}
+}*/
 
 .btn.pull-right {
     margin: 0 0 5px 5px;
@@ -559,6 +562,7 @@ nav .caret {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    max-width: 100%;
 }
 
 .scrollToTop {
@@ -1137,6 +1141,7 @@ h1[class="text-center hero-bloc-text tc-white "] {
 .form-group {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .form-group label {
@@ -1225,7 +1230,18 @@ footer p {
 }
 
 .origin-proposition {
-    margin-left: 3rem;
+    margin-left: 1.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.origin-proposition:nth-of-type(4) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.origin-proposition label {
+    white-space: normal;
 }
 
 .form-group_origine input {
@@ -1237,6 +1253,7 @@ footer p {
     color: black;
     border-bottom: solid rgb(184, 184, 184) 1px;
     max-width: 45rem;
+    /*min-width: 31rem;*/
 }
 
 .horaires tr {
@@ -1274,5 +1291,31 @@ footer p {
     justify-content: center;
 }
 
+.clt:nth-of-type(1), .clt:nth-of-type(3) {
+    margin-bottom: 94px;
+}
 
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-contact {
+    max-width: 95%;
+    height: auto;
+}
+
+.btn-contact div{
+    white-space: normal;
+}
+
+address a {
+    font-size: 1.3rem;
+}
