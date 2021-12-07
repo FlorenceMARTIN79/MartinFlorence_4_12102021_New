@@ -202,7 +202,8 @@ a:hover {
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: /*rgba(0, 0, 0, .7)*/white;
+    font-weight: bolder;
 }
 
 .l-bloc .icon-round,
@@ -850,7 +851,9 @@ h1[class="text-center hero-bloc-text tc-white "] {
 .btn-atomic-tangerine:hover {
     /*background: #c27956!important;
     color: #FFFFFF!important;*/
-    background:#fcbf6a;
+    /*background:#fcbf6a;*/
+    color: white;
+    font-weight: bolder;
 }
 
 .ltc-white {
