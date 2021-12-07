@@ -1222,6 +1222,40 @@ footer p {
     margin: 1rem;
 }
 
+.horaires {
+    border-collapse: collapse;
+    color: black;
+}
+
+
+
+.horaires tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    border-top: solid rgb(184, 184, 184) 1px;
+    border-bottom: solid rgb(184, 184, 184) 1px;
+}
+
+.horaires caption {
+    color: black;
+    font-weight: bold;
+}
+
+.heure {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+.jour  {
+    display: flex; 
+    flex-wrap: wrap;
+    white-space: normal;
+    width: 40%;
+}
+
 
 
 
