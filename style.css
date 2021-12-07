@@ -751,10 +751,12 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
     list-style-type: none;
     padding-left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 50%;
+    justify-content: space-around;
 }
 
 h2 {
@@ -794,6 +796,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    min-width: 100%;
 }
 
 .portfolio-row {
@@ -1169,13 +1172,17 @@ h1[class="text-center hero-bloc-text tc-white "] {
 .contact {
     margin-top: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; 
 }
 
 .contact p, .contact address {
     font-size: 1.5rem;
     color: black;
     max-width: 49%;
+}
+
+.map {
+    padding-top: 2rem;
 }
 
 footer p {
@@ -1229,9 +1236,8 @@ footer p {
     border-collapse: collapse;
     color: black;
     border-bottom: solid rgb(184, 184, 184) 1px;
+    max-width: 45rem;
 }
-
-
 
 .horaires tr {
     display: flex;
@@ -1263,6 +1269,10 @@ footer p {
     width: 40%;
 }
 
+.banniere-h1 {
+    display: flex; 
+    justify-content: center;
+}
 
 
 
