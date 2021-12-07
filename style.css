@@ -1228,6 +1228,7 @@ footer p {
 .horaires {
     border-collapse: collapse;
     color: black;
+    border-bottom: solid rgb(184, 184, 184) 1px;
 }
 
 
@@ -1238,7 +1239,10 @@ footer p {
     justify-content: flex-start;
     width: 100%;
     border-top: solid rgb(184, 184, 184) 1px;
-    border-bottom: solid rgb(184, 184, 184) 1px;
+}
+
+.horaires tr:hover {
+    font-weight: bolder;
 }
 
 .horaires caption {
