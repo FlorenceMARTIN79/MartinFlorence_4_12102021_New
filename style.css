@@ -1182,7 +1182,7 @@ h1[class="text-center hero-bloc-text tc-white "] {
 }
 
 .contact p, .contact address {
-    font-size: 1.5rem;
+    font-size: 18px;
     color: black;
 }
 
@@ -1336,7 +1336,7 @@ address{
     width: 100%;
 }
 
-td {
+td, th {
     font-size: 16px;
 }
 
