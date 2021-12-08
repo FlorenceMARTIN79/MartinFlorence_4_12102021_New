@@ -1235,7 +1235,7 @@ footer p {
     height: auto;
 }
 
-.origin-proposition:nth-of-type(4) {
+.origin-proposition:nth-of-type(5) {
     display: flex;
     flex-wrap: wrap;
 }
@@ -1316,7 +1316,21 @@ footer p {
     white-space: normal;
 }
 
-a h2{
+.form-group h3 {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    align-self: center;
+}
+
+.origine h3 {
+    font-weight: 400;
+}
+
+.message label {
+    margin-bottom: 6px;
+}
+
+address{
     word-break:break-all;
     font-size: 18px;
     width: 100%;
@@ -1326,7 +1340,3 @@ td {
     font-size: 16px;
 }
 
-label h3 {
-    margin-top: 6px;
-    margin-bottom: 6px;
-}

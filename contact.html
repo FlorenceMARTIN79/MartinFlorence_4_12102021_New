@@ -82,57 +82,71 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-10">
 				<h2>Parlez-nous de votre projet en complétant le formulaire ci-dessous :</h2>
-				<form id="form_1" novalidate success-msg="Votre message a bien été envoyé." fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, toutes nos excuses pour ce désagrément !"  method="post" action="form_1.php">
+				<form id="form_1" novalidate method="post" action="form_1.php">
 					<div class="form-group">
-						<label for="name">
-							<h3>Votre nom</h3>
-						</label>
+						<h3>
+							<label for="name">
+								Votre nom
+							</label>
+						</h3>
 						<input type="text" name="name" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label for="email">
-							<h3>Votre adresse email</h3>
-						</label>
+						<h3>
+							<label for="email">
+								Votre adresse email
+							</label>
+						</h3>
 						<input id="email" name="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group form-group_origine">
-						<p class="origine">
+						<div class="origine">
 							<h3>Comment nous avez-vous connu ?</h3>
 							<p>(cochez la case correspondante ; un seul choix possible)</p>
-						</p>
+						</div>
 							<div class="origin-proposition" tabindex="0">
 								<input class="form-control" type="radio" required id="radio_origine1" name="radio_origine" value="boucheaoreille"/>
-								<label for="radio_origine1">
-									<h4>Quelqu'un m'a parlé de vous</h4>
-								</label>
+								<h4>
+									<label for="radio_origine1">
+										Quelqu'un m'a parlé de vous
+									</label>
+								</h4>
 							</div>
 							<div class="origin-proposition" tabindex="0">
 								<input class="form-control" type="radio" required id="radio_origine2" name="radio_origine" value="web"/>
-								<label for="radio_origine2">
-									<h4>En recherchant sur internet</h4>
-								</label>
+								<h4>
+									<label for="radio_origine2">
+										En recherchant sur internet
+									</label>
+								</h4>
 							</div>
 							<div class="origin-proposition" tabindex="0">
 								<input class="form-control" type="radio" required id="radio_origine3" name="radio_origine" value="pagesjaunes"/>
-								<label for="radio_origine3">
-									<h4>Dans les pages jaunes</h4>
-								</label>
+								<h4>
+									<label for="radio_origine3">
+										Dans les pages jaunes
+									</label>
+								</h4>
 							</div>
 							<div class="origin-proposition" tabindex="0">
 								<div class="origin-proposition4">
 									<input class="form-control" type="radio" required id="radio_origine4" name="radio_origine" value="autre"/>
-									<label for="radio_origine4">
-										<h4>Autre : précisez</h4>									
-									</label>
+									<h4>
+										<label for="radio_origine4">
+											Autre : précisez									
+										</label>
+									</h4>
 								</div>
 								<input type="text" name="origin-proposition_autre" id="origin-proposition_autre" class="form-control" >
 							</div>
 						
 					</div>
 					<div class="form-group message">
-						<label for="message">
-							<h3>Présentez-nous votre projet en quelques mots (Ajoutez autant de détails que nécessaire)</h3><br>
-						</label><textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
+						<h3>
+							<label for="message">
+								Présentez-nous votre projet en quelques mots (Ajoutez autant de détails que nécessaire)<br>
+							</label><textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
+						</h3>	
 					</div> 
 					<div class="btn-envoyer col-sm-3">
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
@@ -144,10 +158,10 @@
 			<div class="col-sm-12 contact">
 				<div class="col-sm-12 col-md-6">
 					<address>
-						<a href="mailto:contact@lachouetteagence.com"><h2>contact@lachouetteagence.com</h2></a><br>
-						<h2>2 place Sathonay, 69001 Lyon</h2>
+						<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>
+						2 place Sathonay, 69001 Lyon
 					</address>
-					<table class="horaires col-sm-12 col-md-9">
+					<table class="horaires col-sm-12 col-md-9" tabindex="0">
 						<caption><h2>Horaires</h2></caption>
 						<tbody class="horaire-body">
 							<tr>
