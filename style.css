@@ -838,7 +838,7 @@ h4 {
     color: #FFB651;
 }
 
-.col-sm-12 img {
+.logo-couleur {
     border-radius: 50%;
     border: 2px #FFB651 solid;
 }
@@ -1338,5 +1338,17 @@ address{
 
 td, th {
     font-size: 16px;
+}
+
+/*.carte a{
+    display: block;
+    align-items: center;
+    max-width: 50%;
+}*/
+
+.image-carte {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
 }
 
