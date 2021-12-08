@@ -1222,6 +1222,12 @@ footer p {
     padding-left: 0;
 }
 
+.origin-proposition_list {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .origin-proposition, .origin-proposition4 {
     display: flex;
     flex-direction: row;
@@ -1230,18 +1236,25 @@ footer p {
 }
 
 .origin-proposition {
-    margin-left: 1.5rem;
+    /*margin-left: 1.5rem;*/
+    display: flex;
+    font-size: 1.5rem; 
+    font-weight: 400;
     max-width: 100%;
     height: auto;
 }
 
-.origin-proposition:nth-of-type(5) {
+.origin-proposition:nth-of-type(4) {
     display: flex;
     flex-wrap: wrap;
 }
 
 .origin-proposition label {
+    display: flex;
     white-space: normal;
+    font-size: 1.5rem;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 .form-group_origine input {
@@ -1351,4 +1364,6 @@ td, th {
     object-fit: cover;
     max-width: 100%;
 }
+
+
 

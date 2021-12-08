@@ -115,46 +115,47 @@
 										<h3 tabindex="0">Comment nous avez-vous connu ?</h3>
 										<p tabindex="0">(cochez la case correspondante ; un seul choix possible)</p>
 									</div>
-									<div class="origin-proposition" tabindex="0">
-										<input class="form-control" type="radio" required id="radio_origine1"
-											name="radio_origine" value="boucheaoreille" aria-labelledby="label-origin-proposition-1" aria-describedby="format-sélection-bouton"/>
-										<h4>
-											<label for="radio_origine1" id="label-origin-proposition-1">
-												Quelqu'un m'a parlé de vous
-											</label>
-										</h4>
-									</div>
-									<div class="origin-proposition" tabindex="0">
-										<input class="form-control" type="radio" required id="radio_origine2"
-											name="radio_origine" value="web" aria-labelledby="label-origin-proposition-2" aria-describedby="format-sélection-bouton"/>
-										<h4>
-											<label for="radio_origine2" id="label-origin-proposition-2">
-												En recherchant sur internet
-											</label>
-										</h4>
-									</div>
-									<div class="origin-proposition" tabindex="0">
-										<input class="form-control" type="radio" required id="radio_origine3"
-											name="radio_origine" value="pagesjaunes" aria-labelledby="label-origin-proposition-3" aria-describedby="format-sélection-bouton"/>
-										<h4>
-											<label for="radio_origine3" id="label-origin-proposition-3">
-												Dans les pages jaunes
-											</label>
-										</h4>
-									</div>
-									<div class="origin-proposition" tabindex="0">
-										<div class="origin-proposition4">
-											<input class="form-control" type="radio" required id="radio_origine4"
-												name="radio_origine" value="autre" aria-labelledby="label-origin-proposition-4" aria-describedby="format-sélection-bouton"/>
+									<ul role="radiogroup" aria-labelledby="radio_label" class="origin-proposition_list">
+										<li class="origin-proposition" tabindex="0" role="radio">
+											<input class="form-control" type="radio" required id="radio_origine1"
+												name="radio_origine" value="boucheaoreille" aria-labelledby="label-origin-proposition-1" aria-describedby="format-sélection-bouton"/>
 											<h4>
-												<label for="radio_origine4" id="origin-proposition-4">
-													Autre : précisez
+												<label for="radio_origine1" id="label-origin-proposition-1">
+													Quelqu'un m'a parlé de vous
 												</label>
 											</h4>
-										</div>
-										<input type="text" name="origin-proposition_autre" id="origin-proposition_autre"
-											class="form-control">
-									</div>
+										</li>
+										<li class="origin-proposition" tabindex="0" role="radio">
+											<input class="form-control" type="radio" required id="radio_origine2"
+												name="radio_origine" value="web" aria-labelledby="label-origin-proposition-2" aria-describedby="format-sélection-bouton"/>
+											<h4>
+												<label for="radio_origine2" id="label-origin-proposition-2">
+													En recherchant sur internet
+												</label>
+											</h4>
+										</li>
+										<li class="origin-proposition" tabindex="0" role="radio">
+											<input class="form-control" type="radio" required id="radio_origine3"
+												name="radio_origine" value="pagesjaunes" aria-labelledby="label-origin-proposition-3" aria-describedby="format-sélection-bouton"/>
+											<h4>
+												<label for="radio_origine3" id="label-origin-proposition-3">
+													Dans les pages jaunes
+												</label>
+											</h4>
+										</li>
+										<li class="origin-proposition" tabindex="0" role="radio">
+											<div class="origin-proposition4">
+												<input class="form-control" type="radio" required id="radio_origine4"
+													name="radio_origine" value="autre" aria-labelledby="label-origin-proposition-4" aria-describedby="format-sélection-bouton"/>
+												<h4>
+													<label for="radio_origine4" id="origin-proposition-4">
+														Autre : précisez
+													</label>
+												</h4>
+											</div>
+											<input type="text" name="origin-proposition_autre" id="origin-proposition_autre"
+												class="form-control" >
+										</li>
 
 								</div>
 								<div class="form-group message">
