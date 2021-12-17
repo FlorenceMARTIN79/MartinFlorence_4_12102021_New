@@ -1,3 +1,4 @@
+/*variables*/
 :root {
     --main-color-h1: #FFB651;
     --complementary-color-to-main: #353333;
@@ -1093,11 +1094,31 @@ h1[class="text-center hero-bloc-text tc-white "] {
     }
 }
 
+/*improvement of the css code => accessibility and performance*/
+
+/*ajout d'un indicateur de focus visible sur les éléments portant un focus*/
 *:focus {
     font-weight: bold;
     background-color: var(--main-color-h1);
 }
 
+/*Modification de la mise en forme de la bannière de titre de la page contact*/
+.banniere-h1 {
+    display: flex; 
+    justify-content: center;
+}
+
+/*Modification de la mise en forme du bouton de contact*/
+.btn-contact {
+    max-width: 95%;
+    height: auto;
+}
+
+.btn-contact div{
+    white-space: normal;
+}
+
+/*Mise en forme du formulaire de contact*/
 .form-group {
     display: flex;
     flex-direction: row;
@@ -1146,36 +1167,17 @@ h1[class="text-center hero-bloc-text tc-white "] {
     color: black;
 }
 
-.map {
-    padding-top: 2rem;
-}
-
-footer p {
-    background-color: var(--main-color-h1);
-    color: var(--complementary-color-to-main);
-}
-
-.footer-h2 {
-    font-size: 14px;
-}
-
-.social .fa {
-    color: var(--complementary-color-to-main);
-}
-
-.readable {
-    font-weight: 800;
-    color: #fcc374;
-}
-
-.darker-bg {
-    background-color: #4F4126;
-    min-height: 15rem;
-}
-
+/*mise en forme de la partie identifiant la manière dont l'utilisateur a connu l'agence*/
 .form-group_origine {
     flex-direction: column;
 }
+
+.form-group h3 {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    align-self: center;
+}
+
 .form-group_origine p {
     padding-left: 0;
 }
@@ -1218,6 +1220,22 @@ footer p {
     margin: 1rem;
 }
 
+.origine h3 {
+    font-weight: 400;
+}
+
+.message label {
+    margin-bottom: 6px;
+}
+
+/*mise en forme de la partie réservée aux coordonnées*/
+address{
+    word-break:break-all;
+    font-size: 18px;
+    width: 100%;
+}
+
+/*mise en forme du tableau horaires*/
 .horaires {
     border-collapse: collapse;
     color: black;
@@ -1255,15 +1273,46 @@ footer p {
     width: 40%;
 }
 
-.banniere-h1 {
-    display: flex; 
-    justify-content: center;
+td, th {
+    font-size: 16px;
 }
 
-.clt:nth-of-type(1), .clt:nth-of-type(3) {
-    margin-bottom: 94px;
+/*mise forme de la carte*/
+.map {
+    padding-top: 2rem;
 }
 
+.image-carte {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+/*corrections relatives au contraste*/
+footer p {
+    background-color: var(--main-color-h1);
+    color: var(--complementary-color-to-main);
+}
+
+.footer-h2 {
+    font-size: 14px;
+}
+
+.social .fa {
+    color: var(--complementary-color-to-main);
+}
+
+.readable {
+    font-weight: 800;
+    color: #fcc374;
+}
+
+.darker-bg {
+    background-color: #4F4126;
+    min-height: 15rem;
+}
+
+/*mise en forme des partenaires du footer */
 .links {
     display: flex;
     justify-content: center;
@@ -1276,44 +1325,11 @@ footer p {
     align-items: center;
 }
 
-.btn-contact {
-    max-width: 95%;
-    height: auto;
+.clt:nth-of-type(1), .clt:nth-of-type(3) {
+    margin-bottom: 94px;
 }
 
-.btn-contact div{
-    white-space: normal;
-}
 
-.form-group h3 {
-    margin-bottom: 6px;
-    margin-top: 6px;
-    align-self: center;
-}
-
-.origine h3 {
-    font-weight: 400;
-}
-
-.message label {
-    margin-bottom: 6px;
-}
-
-address{
-    word-break:break-all;
-    font-size: 18px;
-    width: 100%;
-}
-
-td, th {
-    font-size: 16px;
-}
-
-.image-carte {
-    display: block;
-    object-fit: cover;
-    max-width: 100%;
-}
 
 
 
