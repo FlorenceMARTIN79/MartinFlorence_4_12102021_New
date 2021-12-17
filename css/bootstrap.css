@@ -347,7 +347,6 @@ a {
 
 a:focus,
 a:hover {
-    /*color: #23527c;*/
     font-weight: bolder;
     text-decoration: underline
 }
@@ -2489,7 +2488,6 @@ textarea.input-lg {
 .help-block {
     display: block;
     margin-top: 5px;
-    /*margin-bottom: 10px;*/
     color: #737373
 }
 
@@ -3309,7 +3307,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)*/
 }
 
 .open>.dropdown-menu {
@@ -4999,7 +4996,6 @@ a.thumbnail:hover {
 
 .alert {
     padding: 0 1rem 0 1rem;
-    /*margin-bottom: 20px;*/
     margin-left: 1rem;
     border: 1px solid transparent;
     border-radius: 4px
@@ -6620,7 +6616,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    /*background-color: #000\9;*/
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
