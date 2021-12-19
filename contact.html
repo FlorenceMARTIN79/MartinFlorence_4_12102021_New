@@ -93,7 +93,7 @@
 										</label>
 									</h3>
 									<input type="text" name="name" id="name" class="form-control" required
-										aria-labelledby="label-nom" aria-describedby="format-texte" />
+										aria-labelledby="label-nom" aria-describedby="label-nom" />
 								</div>
 								<!-- partie du formulaire relative à l'adresse mail de l'utilisateur-->
 								<div class="form-group">
@@ -103,54 +103,54 @@
 										</label>
 									</h3>
 									<input id="email" name="email" class="form-control" type="email" required
-										aria-labelledby="label-email" aria-describedby="format-adresse-mail" />
+										aria-labelledby="label-email" aria-describedby="label-email" />
 								</div>
 								<!-- partie du formulaire pour identifier la manière dont l'utilisateur a connu l'agence-->
 								<div class="form-group form-group_origine">
 									<div class="origine">
 										<h3 tabindex="0">Comment nous avez-vous connu ?</h3>
-										<p tabindex="0">(cochez la case correspondante ; un seul choix possible)</p>
+										<p tabindex="0" id="radio-origine">(cochez la case correspondante ; un seul choix possible)</p>
 									</div>
-									<ul role="radiogroup" aria-labelledby="radio_label" class="origin-proposition_list">
-										<li class="origin-proposition" tabindex="0" role="radio">
+									<ul role="radiogroup" aria-labelledby="radio-origine" class="origin-proposition_list">
+										<li class="origin-proposition" tabindex="0" aria-checked="false" role="radio">
 											<input class="form-control" type="radio" required id="radio_origine1"
 												name="radio_origine" value="boucheaoreille"
 												aria-labelledby="label-origin-proposition-1"
-												aria-describedby="format-sélection-bouton" />
+												aria-describedby="label-origin-proposition-1" />
 											<h4>
 												<label for="radio_origine1" id="label-origin-proposition-1">
 													Quelqu'un m'a parlé de vous
 												</label>
 											</h4>
 										</li>
-										<li class="origin-proposition" tabindex="0" role="radio">
+										<li class="origin-proposition" tabindex="0" aria-checked="false" role="radio">
 											<input class="form-control" type="radio" required id="radio_origine2"
 												name="radio_origine" value="web"
 												aria-labelledby="label-origin-proposition-2"
-												aria-describedby="format-sélection-bouton" />
+												aria-describedby="label-origin-proposition-2" />
 											<h4>
 												<label for="radio_origine2" id="label-origin-proposition-2">
 													En recherchant sur internet
 												</label>
 											</h4>
 										</li>
-										<li class="origin-proposition" tabindex="0" role="radio">
+										<li class="origin-proposition" tabindex="0" aria-checked="false" role="radio">
 											<input class="form-control" type="radio" required id="radio_origine3"
 												name="radio_origine" value="pagesjaunes"
 												aria-labelledby="label-origin-proposition-3"
-												aria-describedby="format-sélection-bouton" />
+												aria-describedby="label-origin-proposition-3" />
 											<h4>
 												<label for="radio_origine3" id="label-origin-proposition-3">
 													Dans les pages jaunes
 												</label>
 											</h4>
 										</li>
-										<li class="origin-proposition" tabindex="0" role="radio">
+										<li class="origin-proposition" tabindex="0" aria-checked="false" role="radio">
 											<div class="origin-proposition4">
 												<input class="form-control" type="radio" required id="radio_origine4"
 													name="radio_origine" value="autre"
-													aria-labelledby="label-origin-proposition-4"
-													aria-describedby="format-sélection-bouton" />
+													aria-labelledby="origin-proposition-4"
+													aria-describedby="origin-proposition-4" />
 												<h4>
 													<label for="radio_origine4" id="origin-proposition-4">
 														Autre :
@@ -162,6 +162,7 @@
 											<input type="text" name="origin-proposition_autre"
 												id="origin-proposition_autre" class="form-control">
 										</li>
+									</ul>
 
 								</div>
 								<!-- partie du formulaire pour présentation du projet de l'utilisateur-->
@@ -185,12 +186,18 @@
 						<!--Coordonnées de l'agence-->
 						<div class="col-sm-12 contact">
 							<div class="col-sm-12 col-md-6">
-								<address>
-									<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>
+								<address >
+									<a href="mailto:contact@lachouetteagence.com">
+										<p>contact@lachouetteagence.com</p>
+										</a>
 									<a href="tel:+33102030405" aria-label="Numéro de téléphone"
-										aria-describedby="Numéro de téléphone">Tél. : (+33) 0102030405</a><br>
+										aria-describedby="phone_number">
+										<p id="phone_number">Tél. : (+33) 0102030405</p>
+										</a>
 									<a href="https://www.google.fr/maps/place/2+Pl.+Sathonay,+69001+Lyon/@45.7695241,4.8279786,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eb020f3664e9:0x13e3d71752922c1f!8m2!3d45.7695241!4d4.8301673"
-										target="_blank" rel="noreferrer">2 place Sathonay, 69001 Lyon</a>
+										target="_blank" rel="noreferrer">
+										<p>2 place Sathonay, 69001 Lyon</p>
+										</a>
 								</address>
 								<!--horaires de l'agence-->
 								<table class="horaires col-sm-12 col-md-9">
@@ -250,8 +257,8 @@
 								</table>
 							</div>
 							<!-- carte de Lyon avec agence ; lien vers Google Map -->
-							<div class="col-sm-12 col-md-6 map" tabindex="0"
-								aria-label="Où nous trouver - carte Google Map" class="carte">
+							<div class="col-sm-12 col-md-6 map carte" tabindex="0"
+								aria-label="Où nous trouver - carte Google Map">
 								<a href="https://www.google.fr/maps/place/2+Pl.+Sathonay,+69001+Lyon/@45.7695241,4.8279786,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eb020f3664e9:0x13e3d71752922c1f!8m2!3d45.7695241!4d4.8301673"
 									target="_blank" rel="noreferrer">
 									<img src="img/carte.png" alt="Carte de Lyon localisant La Chouette Agence"
