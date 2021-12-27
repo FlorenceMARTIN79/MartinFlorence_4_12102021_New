@@ -87,28 +87,28 @@
 							<form id="form_1" novalidate method="post" action="form_1.php">
 								<!-- partie du formulaire relative au nom de l'utilisateur-->
 								<div class="form-group">
-									<h3>
+									
 										<label for="name" id="label-nom">
 											Votre nom
 										</label>
-									</h3>
+									
 									<input type="text" name="name" id="name" class="form-control" required
 										aria-labelledby="label-nom" aria-describedby="label-nom" />
 								</div>
 								<!-- partie du formulaire relative à l'adresse mail de l'utilisateur-->
 								<div class="form-group">
-									<h3>
+									
 										<label for="email" id="label-email">
 											Votre adresse email
 										</label>
-									</h3>
+									
 									<input id="email" name="email" class="form-control" type="email" required
 										aria-labelledby="label-email" aria-describedby="label-email" />
 								</div>
 								<!-- partie du formulaire pour identifier la manière dont l'utilisateur a connu l'agence-->
 								<div class="form-group form-group_origine">
 									<div class="origine">
-										<h3 tabindex="0">Comment nous avez-vous connu ?</h3>
+										<p tabindex="0">Comment nous avez-vous connu ?</p>
 										<p tabindex="0" id="radio-origine">(cochez la case correspondante ; un seul choix possible)</p>
 									</div>
 									<ul role="radiogroup" aria-labelledby="radio-origine" class="origin-proposition_list">
@@ -117,33 +117,33 @@
 												name="radio_origine" value="boucheaoreille"
 												aria-labelledby="label-origin-proposition-1"
 												aria-describedby="label-origin-proposition-1" />
-											<h4>
+											
 												<label for="radio_origine1" id="label-origin-proposition-1">
 													Quelqu'un m'a parlé de vous
 												</label>
-											</h4>
+											
 										</li>
 										<li class="origin-proposition" tabindex="0" aria-checked="false" role="radio">
 											<input class="form-control" type="radio" required id="radio_origine2"
 												name="radio_origine" value="web"
 												aria-labelledby="label-origin-proposition-2"
 												aria-describedby="label-origin-proposition-2" />
-											<h4>
+											
 												<label for="radio_origine2" id="label-origin-proposition-2">
 													En recherchant sur internet
 												</label>
-											</h4>
+											
 										</li>
 										<li class="origin-proposition" tabindex="0" aria-checked="false" role="radio">
 											<input class="form-control" type="radio" required id="radio_origine3"
 												name="radio_origine" value="pagesjaunes"
 												aria-labelledby="label-origin-proposition-3"
 												aria-describedby="label-origin-proposition-3" />
-											<h4>
+											
 												<label for="radio_origine3" id="label-origin-proposition-3">
 													Dans les pages jaunes
 												</label>
-											</h4>
+											
 										</li>
 										<li class="origin-proposition" tabindex="0" aria-checked="false" role="radio">
 											<div class="origin-proposition4">
@@ -151,11 +151,11 @@
 													name="radio_origine" value="autre"
 													aria-labelledby="origin-proposition-4"
 													aria-describedby="origin-proposition-4" />
-												<h4>
+												
 													<label for="radio_origine4" id="origin-proposition-4">
 														Autre :
 													</label>
-												</h4>
+												
 											</div>
 											<label for="origin-proposition_autre"
 												id="label-origin-autre">précisez</label>
@@ -167,13 +167,13 @@
 								</div>
 								<!-- partie du formulaire pour présentation du projet de l'utilisateur-->
 								<div class="form-group message">
-									<h3>
+									
 										<label for="message">
 											Présentez-nous votre projet en quelques mots (Ajoutez autant de détails que
 											nécessaire)<br>
 										</label><textarea id="message" name="message" class="form-control" rows="4"
 											cols="50" required></textarea>
-									</h3>
+									
 								</div>
 								<div class="btn-envoyer col-sm-3">
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
